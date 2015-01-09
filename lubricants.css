@@ -12,10 +12,32 @@
 #content{
 	width: 100%;
 	/*background-color: black;*/
+	background-color: #767676;
 }
 
 #head-logo{
+	display: inline-block;
+	vertical-align: top;
 	width: 100%;
 	height: 50px;
 	background-color: #ededed;
+}
+
+#splash{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+	height: 255px;
+	background-color: #9d9d9d;
+}
+
+#message{
+	width: 100%;
+	background-color: #d0d0d0;
+}
+
+.item{
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
 }
