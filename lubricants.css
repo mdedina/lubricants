@@ -1,0 +1,21 @@
+/* global classes*/
+
+
+/* big boxes */
+#container{
+	width: 980px;
+	height: 800px;
+	margin: 0 auto;
+	background-color: #e8e8e8;
+}
+
+#content{
+	width: 100%;
+	/*background-color: black;*/
+}
+
+#head-logo{
+	width: 100%;
+	height: 50px;
+	background-color: #ededed;
+}
