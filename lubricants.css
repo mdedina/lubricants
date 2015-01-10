@@ -25,10 +25,11 @@ h2{
 }
 
 #content{
-	width: 100%;
+	width: 98%%;
 	background-color: black;
 	/*background-color: #767676;*/
-	padding-left: 25px;
+	padding-left: 2%;
+	height: 650px;
 }
 #content img:first-child{
 	margin: 10px 10px 0 0;
@@ -37,9 +38,10 @@ h2{
 
 #head-logo{
 	width: 100%;
-	/*background-color: #ededed;*/
 	font-size: 80%;
 	font-weight: bold;
+	background-image:
+    linear-gradient(#e4e4e4, white 60%);
 }
 #head-logo img{
 	display: inline-block;
@@ -54,14 +56,12 @@ h2{
 #head-nav{
 	width: 100%;
 	height: 50px;
-	background: rgba(224,239,249,0.95);
-	background: -moz-linear-gradient(top, rgba(224,239,249,0.95) 0%, rgba(181,198,208,0.95) 8%, rgba(216,225,231,0.97) 47%, rgba(242,246,248,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(224,239,249,0.95)), color-stop(8%, rgba(181,198,208,0.95)), color-stop(47%, rgba(216,225,231,0.97)), color-stop(100%, rgba(242,246,248,1)));
-	background: -webkit-linear-gradient(top, rgba(224,239,249,0.95) 0%, rgba(181,198,208,0.95) 8%, rgba(216,225,231,0.97) 47%, rgba(242,246,248,1) 100%);
-	background: -o-linear-gradient(top, rgba(224,239,249,0.95) 0%, rgba(181,198,208,0.95) 8%, rgba(216,225,231,0.97) 47%, rgba(242,246,248,1) 100%);
-	background: -ms-linear-gradient(top, rgba(224,239,249,0.95) 0%, rgba(181,198,208,0.95) 8%, rgba(216,225,231,0.97) 47%, rgba(242,246,248,1) 100%);
-	background: linear-gradient(to bottom, rgba(224,239,249,0.95) 0%, rgba(181,198,208,0.95) 8%, rgba(216,225,231,0.97) 47%, rgba(242,246,248,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0eff9', endColorstr='#f2f6f8', GradientType=0 );
+	background-image: 
+	linear-gradient(
+		#eef3f4, #eef3f4 5%, 
+		#cfd7e0, #eaedf5 40%, 
+		#eaedf5, #f2f2f2 45%,
+		#f2f2f2, #f2f2f2);
 }
 #head-nav ul li{
 	display: inline;
@@ -106,7 +106,7 @@ h2{
 	font-size: 60%;
 }
 #message p{
-	padding: 0 0 0 0;
+	padding: 7px 0 0 0;
 	margin: 0 0 0 0;
 	display: inline-block;
 	vertical-align: top;
@@ -122,9 +122,9 @@ h2{
 	display: inline-block;
 	vertical-align: top;
 	width: 200px;
-	/*height: 200px;*/
+	height: 300px;
 	background-color: white;
-	margin: 5px 40px 0 0;
+	margin: 5px 35px 0 0;
 }
 .item img{
 	width: 100%;
@@ -133,6 +133,8 @@ h2{
 }
 .item p{
 	font-size: 60%;
+	padding: 0 10px 0 10px;
+	height: 30%;
 }
 .item h1{
 	width: 193px;
@@ -141,5 +143,5 @@ h2{
 .item button{
 	background-color: #f7cf00;
 	border-radius: 3px;
-	margin-left: 0px;
+	margin-left: 90px;
 }
