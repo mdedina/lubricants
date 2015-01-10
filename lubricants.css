@@ -26,15 +26,13 @@ h2{
 #container{
 	width: 980px;
 	margin: 0 auto;
-	/*background-color: #e8e8e8;*/
 	font-family: arial, sans-serif;
 	font-size: 16pt;
 }
 
 #content{
-	width: 98%%;
+	width: 98%;
 	background-color: black;
-	/*background-color: #767676;*/
 	padding-left: 2%;
 	height: 650px;
 }
@@ -89,7 +87,6 @@ h2{
 	width: 57%;
 	height: 262px;
 	margin: 10px 0 0 0;
-	/*background-color: #9d9d9d;*/
 
 	background: rgba(76,76,76,1);
 	background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 26%, rgba(43,43,43,1) 100%);
@@ -99,8 +96,8 @@ h2{
 	background: -ms-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 26%, rgba(43,43,43,1) 100%);
 	background: linear-gradient(to right, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 26%, rgba(43,43,43,1) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c4c4c', endColorstr='#2b2b2b', GradientType=1 );
-
 }
+
 #splash p{
 	font-size: 60%;
 	margin-left: 10px;
@@ -110,7 +107,6 @@ h2{
 
 #message{
 	width: 100%;
-	/*background-color: #d0d0d0;*/
 	font-size: 60%;
 }
 #message p{
